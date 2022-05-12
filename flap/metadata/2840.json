@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #2840",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/2840, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=2840",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/2840.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=2840",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Easy"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Silk Blade"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Poppy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Future"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "None"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Kaiju Earth"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Laser Yellow"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

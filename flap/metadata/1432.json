@@ -1,0 +1,36 @@
+{
+  "name": "Flappy Boys #1432",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/1432, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=1432",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/1432.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=1432",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Background music",
+      "value": "Wu Wednesday"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Bouncy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Pyro"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Unique"
+    }
+  ]
+}

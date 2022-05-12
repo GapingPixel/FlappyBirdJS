@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #600",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/600, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=600",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/600.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=600",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Hard"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Press Start"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Snappy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Neo Tokyo"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "None"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Shark"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Winter"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "Beard"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Crazy Goggles Gray"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

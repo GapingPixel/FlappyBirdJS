@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Flappy Boys</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="author" content="flapper" />
+      <meta name="description" content='Flappy Boys'/>
+      <meta name="keywords" content="flappybird,flappy,bird,flappy,boys,html,nft,opensea,os,art,animated,animation" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+      <meta property="og:title" content="Flappy Boys" />
+      <meta property="og:description" content="A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="assets/thumbnail.png" />
+      <meta property="og:url" content="flappyboys.com" />
+      <meta property="og:site_name" content="Flappy Boys" />
+
+      <link href="css/main.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div id="gamecontainer">
+         <div id="gamescreen">
+            <div id="loading">Loading</div>
+            <div id="bg" class="animated">
+               <div id="flyarea">
+                  <div id="ceiling" class="animated"></div>
+                  <div id="player" class="player animated"></div>
+                  <div id="bigscore"></div>
+
+                  <div id="splash"></div>
+
+                  <div id="gameover">
+                     <div id="medal"></div>
+                     <div id="currentscore"></div>
+                     <div id="highscore"></div>
+                     <div id="replay"></div>
+                  </div>
+               </div>
+            </div>
+            <div id="land" class="animated"><div id="debug"></div></div>
+         </div>
+      </div>
+      <div class="boundingbox" id="playerbox"></div>
+      <div class="boundingbox" id="pipebox"></div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.transit.min.js"></script>
+      <script src="js/howler.js"></script>
+      <script src="js/main.js"></script>
+
+      <script>
+      function inIframe() {
+          try {
+              return window.self !== window.top;
+          } catch (e) {
+              return true;
+          }
+      }
+      </script>
+   </body>
+</html>

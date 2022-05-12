@@ -1,0 +1,349 @@
+@-webkit-keyframes animLand {
+    0% { background-position: 0px 0px; }
+    100% { background-position: -335px 0px; }
+ }
+ @-moz-keyframes animLand {
+    0% { background-position: 0px 0px; }
+    100% { background-position: -335px 0px; }
+ }
+ @-o-keyframes animLand {
+    0% { background-position: 0px 0px; }
+    100% { background-position: -335px 0px; }
+ }
+ @keyframes animLand {
+    0% { background-position: 0px 0px; }
+    100% { background-position: -335px 0px; }
+ }
+ 
+ @-webkit-keyframes animBg {
+    0% { background-position: 0px 100%; }
+    100% { background-position: -275px 100%; }
+ }
+ @-moz-keyframes animBg {
+    0% { background-position: 0px 100%; }
+    100% { background-position: -275px 100%; }
+ }
+ @-o-keyframes animBg {
+    0% { background-position: 0px 100%; }
+    100% { background-position: -275px 100%; }
+ }
+ @keyframes animBg {
+    0% { background-position: 0px 100%; }
+    100% { background-position: -275px 100%; }
+ }
+ 
+ @-webkit-keyframes animPlayer {
+    from { background-position: 0px 0px; }
+    to { background-position: 0px -96px; }
+ }
+ @-moz-keyframes animPlayer {
+    from { background-position: 0px 0px; }
+    to { background-position: 0px -96px; }
+ }
+ @-o-keyframes animPlayer {
+    from { background-position: 0px 0px; }
+    to { background-position: 0px -96px; }
+ }
+ @keyframes animPlayer {
+    from { background-position: 0px 0px; }
+    to { background-position: 0px -96px; }
+ }
+ 
+ @-webkit-keyframes animPipe {
+    0% { left: 600px; }
+    100% { left: -100px; }
+ }
+ @-moz-keyframes animPipe {
+    0% { left: 600px; }
+    100% { left: -100px; }
+ }
+ @-o-keyframes animPipe {
+    0% { left: 600px; }
+    100% { left: -100px; }
+ }
+ @keyframes animPipe {
+    0% { left: 600px; }
+    100% { left: -100px; }
+ }
+ 
+ 
+ *
+ {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+ 
+ html,
+ body
+ {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 12px;
+    background-color: black;
+ }
+ 
+ #gamecontainer
+ {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    min-height: 500px;
+    min-width: 600px;
+    outline: 1px solid black;
+    margin-left: 1px;
+    margin-right: 1px;
+ }
+ 
+ 
+ #gamescreen
+ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #loading
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+ }
+ 
+ #bg
+ {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    background-repeat: repeat-x;
+    background-position: 0px 100%;
+    background-color: #000;
+ 
+    -webkit-animation: animBg 7s linear infinite;
+    animation: animBg 7s linear infinite;
+ }
+ 
+ #flyarea
+ {
+    position: absolute;
+    bottom: 0;
+    height: 400px;
+    width: 100%;
+ }
+ 
+ #land
+ {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+    background-color: #000;
+ 
+    -webkit-animation: animLand 2516ms linear infinite;
+    animation: animLand 2516ms linear infinite;
+ }
+ 
+ #bigscore
+ {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+    transform: translateX(-50%)
+ }
+ 
+ #bigscore img
+ {
+    display: inline-block;
+    padding: 1px;
+ }
+ 
+ #splash
+ {
+    position: fixed;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 188px;
+    height: 170px;
+    background-repeat: no-repeat;
+ }
+ 
+ #gameover
+ {
+    position: fixed;
+    display: none;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 280px;
+    width: 236px;
+    background-image: url('../assets/gameover.png');
+    background-repeat: no-repeat;
+ 
+    z-index: 3;
+ }
+ 
+ #medal
+ {
+    position: absolute;
+    opacity: 0;
+    top: 114px;
+    left: 32px;
+    width: 44px;
+    height: 44px;
+ }
+ 
+ #currentscore
+ {
+    position: absolute;
+    top: 105px;
+    left: 107px;
+    width: 104px;
+    height: 14px;
+    text-align: right;
+ }
+ 
+ #currentscore img
+ {
+    padding-left: 2px;
+ }
+ 
+ #highscore
+ {
+    position: absolute;
+    top: 147px;
+    left: 107px;
+    width: 104px;
+    height: 14px;
+    text-align: right;
+ }
+ 
+ #highscore img
+ {
+    padding-left: 2px;
+ }
+ 
+ #replay
+ {
+    position: absolute;
+    opacity: 0;
+    top: 205px;
+    left: 61px;
+    width: 115px;
+    height: 70px;
+    cursor: pointer;
+    background-image: url('../assets/replay.png');
+    background-repeat: no-repeat;
+ }
+ 
+ .boundingbox
+ {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 1px solid red;
+ }
+ 
+ #player
+ {
+    left: 20%;
+    z-index: 3;
+ }
+ 
+ .player
+ {
+    position: absolute;
+    width: 34px;
+    height: 24px;
+ 
+    -webkit-animation: animPlayer 300ms steps(4) infinite;
+    animation: animPlayer 300ms steps(4) infinite;
+ }
+ 
+ .pipe
+ {
+    position: absolute;
+    left: -100px;
+    width: 52px;
+    height: 100%;
+    z-index: 1;
+ 
+    -webkit-animation: animPipe 5250ms linear;
+    animation: animPipe 5250ms linear;
+ }
+ 
+ 
+ .pipe-end 
+ {
+    position: absolute;
+    left: -100px;
+    width: 52px;
+    height: 100%;
+    z-index: 1;
+ 
+    -webkit-animation: animPipe 5250ms linear;
+    animation: animPipe 5250ms linear;
+ }
+ 
+ .pipe_lower
+ {
+    position: absolute;
+    bottom: 0;
+    width: 52px;
+    background-repeat: repeat-y;
+    background-position: center;
+ }
+ 
+ .pipe_upper
+ {
+    position: absolute;
+    top: 0;
+    width: 52px;
+ 
+    background-repeat: repeat-y;
+    background-position: center;
+ }
+ 
+ .pipe-end_lower
+ {
+    position: absolute;
+    bottom: 0;
+    width: 52px;
+    height: 26px;
+ }
+ 
+ .pipe-end_upper
+ {
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 26px;
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+ }

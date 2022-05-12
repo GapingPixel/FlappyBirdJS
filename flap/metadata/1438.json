@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #1438",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/1438, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=1438",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/1438.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=1438",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Easy"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Cowboy Bebop"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Zappy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "None"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Kongz Pink"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "Mustache"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Eye Patch"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

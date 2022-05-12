@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #3120",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/3120, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=3120",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/3120.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=3120",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Hard"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Instant Transmission"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Poppy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Ice"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "Glitch"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Shark"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

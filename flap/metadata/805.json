@@ -1,0 +1,36 @@
+{
+  "name": "Flappy Boys #805",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/805, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=805",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/805.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=805",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Background music",
+      "value": "Silk Blade"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Zappy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Future"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Celly"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Unique"
+    }
+  ]
+}

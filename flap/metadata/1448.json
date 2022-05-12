@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #1448",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/1448, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=1448",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/1448.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=1448",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Medium"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Press Start"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Poppy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Neo Tokyo"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "None"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Rubber Duck Green"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

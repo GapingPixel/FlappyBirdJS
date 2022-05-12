@@ -1,0 +1,56 @@
+{
+  "name": "Flappy Boys #2815",
+  "backgroundColor": "000000",
+  "description": "A collection of playable NFTs inspired by the most frustrating game of the century and our favourite pixel art projects. Each collectible is playable directly on both OpenSea and our website, https://play.flappyboys.com/2815, play using left-click, spacebar or a tap.",
+  "external_url": "https://play.flappyboys.com/?gameid=2815",
+  "collection_name": "Flappy Boys",
+  "image": "ipfs://QmR3xagvr2r3RcS58m92TZXLxtZJk5AWd6JqLUNUDnH1yE/2815.png",
+  "animation_url": "https://play.flappyboys.com/?gameid=2815",
+  "series": 1,
+  "attributes": [
+    {
+      "trait_type": "Difficulty",
+      "value": "Easy"
+    },
+    {
+      "trait_type": "Background Music",
+      "value": "Cowboy Bebop"
+    },
+    {
+      "trait_type": "SFX",
+      "value": "Whizzy"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Misc",
+      "value": "None"
+    },
+    {
+      "trait_type": "Boy",
+      "value": "Kaiju"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Crown"
+    },
+    {
+      "trait_type": "Jewelry",
+      "value": "None"
+    },
+    {
+      "trait_type": "Masks",
+      "value": "Mustache"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Crazy Goggles Gray"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
